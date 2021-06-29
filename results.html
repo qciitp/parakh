@@ -136,29 +136,31 @@
 			float: left;
 			width: 30%;
 			padding-left: 10%;
-			padding-top: 2%;
+			padding-top: 5%;
 			padding-bottom: 3%;
 			background-color: black;
 			color: white;
 		}
 		.f-panel-one img {
-			width: 40%;
+			width: 30%;
 			height: auto;
 			margin-bottom: 2%;
 			margin-left: 4%;
 		}
 		.f-panel-one p {
-			font-size: 1.5vw;
-			line-height: 140%;
+			color: rgba(255, 255, 255, 0.7);
+			font-size: 1vw;
+			line-height: 100%;
 			margin-bottom: 4%;
 		}
 		.f-panel-two h3 {
 			color: white;
 			margin-left: 5%;
 			text-shadow: 1px 2px grey;
-			font-size: 2vw;
+			font-size: 1vw;
 		}
 		.f-panel-two {
+			text-align: center;
 			float: left;
 			width: 50%;
 			padding-left: 10%;
@@ -178,13 +180,14 @@
 			display: block;
 		}
 		.f-links li a {
+			color: rgba(255, 255, 255, 0.5);
 			border: 1px solid transparent;
 			transition: 0.3s ease;
-			font-size: 2vw;
+			font-size: 1vw;
 		}
 		.f-links li a:hover {
 			color: tomato;
-			background-color: black;
+			background-color: white;
 		}
 		@media screen and (max-width: 850px) {
 			.logo {
@@ -444,7 +447,7 @@
     <ul id="menu">
       <a href="index.html"><li>HOME</li></a>
       <a href="schedule.html"><li>SCHEDULE</li></a>
-      <a href="#"><li>DISCORD</li></a>
+      <a href="https://discord.gg/kgqZjfD8KG"><li>DISCORD</li></a>
       <a href="#"><li>RESULTS</li></a>
     </ul>
   </div>
@@ -452,7 +455,7 @@
 			<ul class="one">
 				<li><a href="index.html"> HOME </a></li>
 				<li><a href="schedule.html"> SCHEDULE </a></li>
-				<li><a href="#"> DISCORD </a></li>
+				<li><a href="https://discord.gg/kgqZjfD8KG"> DISCORD </a></li>
 				<li><a href="#"> RESULTS </a></li>
 			</ul>
 		</div>
@@ -462,10 +465,15 @@
 			<h1 class="author">RESULTS</h1>
 		</div>
 		<div class="button">
-			<a href="#" class="butt"> Register </a>
-			<a href="welcome.html" class="butt"> Participate </a>
+			<a href="https://dare2compete.com/p/parakh-indian-institute-of-technology-iit-patna-173609?lb=5DTZFqf" class="butt"> Register </a>
+			<a onclick="myFunction()" href="#" class="butt"> Participate </a>
 		</div>
 	</header>
+	<script>
+	function myFunction() {
+	  alert("Warning! The button you are trying to access is currently disabled. It will be enabled on the day of the quiz.");
+	}
+	</script>
 	<div class="main">
 		<a href="#"><img class="three" src="https://lh3.googleusercontent.com/R4sVXugU1P8vTcvqnBEnU0ylWiTCU4z5tjQFs9mxKPP_B8ylKi640k2oJZXEksabqMJkPOrFBVPeUmshaFunehy_4reQzuwzJxsIX3fTHPrutATCmG2DzOsqVF5FINY7vq4krriBWw=w2400"></a>
 		<a href="#"><img class="three" src="https://lh3.googleusercontent.com/c9U5csCfro1wm1JKdJqTQbCjU9_PJNx3BOl_itc4CTPDbkTD5g_50rGnhs14P72YCfqngT03iqAHvZyyAUXu_DhUp5p5E9Uhw8WrQ0GVHM1wukCwpUZJRHYS_JgctCiLLKDFH0nlxg=w2400"></a>
@@ -479,7 +487,7 @@
 	<footer>
 		<div class="footercontainer">
 			<hr>
-			<div class="f-panel-one">
+			<div class="f-panel-one" align="center">
 				<img src="https://lh3.googleusercontent.com/toszyU0WBX7Ae2sx0wzE0CPkOz7fkE6EKabmi4IVgd_4aw9VfYjlzgx2WKqWZ4X1F776eWE2zmqdkZ8W__Mqkbwra2bx0URM0KJYmnDke0J2ZoSDhFWKvLdHXvB2lYfVZ4v3fTuD1g=w2400">
 				<p>Quiz Club of Indian Institute of Technology Patna</p>
 				
@@ -488,16 +496,16 @@
 
 				<div class="f-panel-two-one">
 				<ul class="f-links">
-					<li><a href="#">Slideshare</a></li>
-					<li><a href="#">Discord</a></li>
-					<li><a href="#">Instagram</a></li>
-					<li><a href="#">Facebook</a></li>
+					<li><a href="https://www.slideshare.net/QuizClubIITPatna">Slideshare</a></li>
+					<li><a href="https://discord.gg/kgqZjfD8KG">Discord</a></li>
+					<li><a href="https://www.instagram.com/qc_iitp/">Instagram</a></li>
+					<li><a href="https://www.facebook.com/QCIITP/">Facebook</a></li>
 				</ul>
 				</div>
 				<div class="f-panel-two-two">
 				<ul class="f-links">
-					<li><a href="#">Email</a></li>
-					<li><a href="#">Feedback</a></li>
+					<li><a href="mailto:quizclub@iitp.ac.in">Email</a></li>
+					<li><a href="https://forms.gle/WxpXpuCAfVtc3QoV8">Feedback</a></li>
 				</ul>
 				</div>
 			</div>
