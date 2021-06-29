@@ -42,18 +42,17 @@
 		}
 		.logo {
 			position: absolute;
-			top: 0%;
+			top: 6%;
 			left: 2%;
 		}
 		.logo img {
 			float: left;
-			width: 200px;
+			width: 300px;
 			height: auto;
+			transition: transform .2s;
 		}
 		.logo img:hover {
-			background-color: rgba(255,255,255,0.5);
-			border : 2px solid white;
-			border-radius: 10px;
+			transform: translateY(-10px);
 		}
 		.myheader {
 			width: 100%;
@@ -153,7 +152,8 @@
 			line-height: 140%;
 			margin-bottom: 4%;
 		}
-		.f-panel-one h3 {
+		.f-panel-two h3 {
+			color: white;
 			margin-left: 5%;
 			text-shadow: 1px 2px grey;
 			font-size: 2vw;
@@ -303,7 +303,7 @@
 			text-align: center;
 			font-size: 2vw;
 		}
-		.f-panel-one h3 {
+		.f-panel-two h3 {
 			float: left;
 			margin-left: 25%;
 			font-size: 5vw;
@@ -422,7 +422,7 @@
 	<header>
 		<div class="myheader">
 			<div class="logo">
-				<img src="https://lh3.googleusercontent.com/jvOj_vVWp_eCKz7xpDQbRg0xmMhWuw9DovjquXq75nlu6ZdJNDEpOEqzkTYp6uOO_Nc816PJ7rf618Povsf-IdU0Dx3Rx9TrE3oFe5iZoym9hSAoaFAdUITmqp23NSDHWPud76KwJA=w2400">
+				<img src="https://lh3.googleusercontent.com/NUAYPz-uSuX0IkmO8jhKfVNHp2ZQu6CWSoMl8DyK_gt3DSbRDBylCA0TTclHLTbB12aug_Krf-jN0pbUoXt30wZwUF9bQbespbQGaOQLbUlFaYryyMitEXzCfR63voXanvZm1pvwQA=w2400">
 			</div>
 			<nav role="navigation">
   <div id="menuToggle">
@@ -437,7 +437,7 @@
       <a href="#"><li>HOME</li></a>
       <a href="schedule.html"><li>SCHEDULE</li></a>
       <a href="#"><li>DISCORD</li></a>
-      
+      <a href="results.html"><li>RESULTS</li></a>
     </ul>
   </div>
 </nav>
@@ -445,12 +445,13 @@
 				<li><a href="#"> HOME </a></li>
 				<li><a href="schedule.html"> SCHEDULE </a></li>
 				<li><a href="#"> DISCORD </a></li>
+				<li><a href="results.html"> RESULTS </a></li>
 			</ul>
 		</div>
 		<div class="title">
-			<h1> Yer a wizard Harry! </h1>
+			<h1> Testing knowledge at the speed of thought </h1>
 			<br>
-			<h1 class="author"> Rubeus Hagrid </h1>
+			<h1 class="author"> Quiz Club IIT Patna </h1>
 		</div>
 		<div class="button">
 			<a href="#" class="butt"> Register </a>
@@ -464,9 +465,11 @@
 			<div class="f-panel-one">
 				<img src="https://lh3.googleusercontent.com/toszyU0WBX7Ae2sx0wzE0CPkOz7fkE6EKabmi4IVgd_4aw9VfYjlzgx2WKqWZ4X1F776eWE2zmqdkZ8W__Mqkbwra2bx0URM0KJYmnDke0J2ZoSDhFWKvLdHXvB2lYfVZ4v3fTuD1g=w2400">
 				<p>Quiz Club of Indian Institute of Technology Patna</p>
-				<h3> Follow us </h3>
+				
 			</div>
 			<div class="f-panel-two">
+				<h3> Follow us </h3>
+
 				<div class="f-panel-two-one">
 				<ul class="f-links">
 					<li><a href="#">Slideshare</a></li>
