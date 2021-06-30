@@ -1,0 +1,58 @@
+.postimg img{
+  width: 30vw;
+  height: auto;
+  transform: translateX(10px) translateY(-15px);
+  position: relative;
+  border-radius: 0.2rem;
+  box-shadow: 0 5rem 3rem rgba(0, 0, 0, 0.2);
+  transition: transform .2s;
+}
+
+.postimg img:hover{
+  transform: translateY(-25px) translateX(10px);
+}
+
+.postimg {
+  margin-right: 5%;
+}
+
+.post {
+  width: 90%;
+  margin: 10% 5% 5% 5%;
+  background-color: #fff;
+  box-shadow: 0 1.4rem 8rem rgba(0, 0, 0, 0.2);
+  display: flex;
+  align-items: center;
+  border-radius: 0.5rem;
+}
+
+.postinfo {
+  padding: 5%;
+}
+
+
+.postinfo span{
+  display: block;
+  color: rgba(0, 41, 47, 0.7);
+  font-size: 4vw;
+  font-weight: bolder;
+  margin: 2%;
+  
+}
+
+.posthead {
+  margin-top: -10%;
+  margin-bottom: 7%;
+}
+
+.postdate {
+  padding-bottom: 5%;
+  font-size: 2vw;
+  color: rgba(0, 0, 0, 0.5);
+  font-family: Trebuchet MS;
+}
+
+.posttext {
+  font-size: 1vw;
+}
+
