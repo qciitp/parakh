@@ -38,7 +38,7 @@
 }
 
 .postimg img:hover{
-  transform: translateX(83%) translateY(-40%);
+  transform: translateX(83%) translateY(-25%);
 }
 
 .postimg {
