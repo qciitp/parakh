@@ -11,13 +11,14 @@
 .postbanner {
   float: left;
   width: 90%;
-  margin: 10% 5% -2% 5%;
+  margin: 5% 5% 2% 5%;
   background-color: #fff;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   display: flex;
-  background: #12c2e9;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #f64f59, #c471ed, #12c2e9);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #f64f59, #c471ed, #12c2e9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #FFA17F;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #00223E, #FFA17F);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #00223E, #FFA17F); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 
   align-content: center;
   align-items: center;
@@ -47,13 +48,13 @@
 .post {
   float: left;
   width: 27.3%;
-  margin: 10% 3% 5% 3%;
+  margin: 5% 3% 5% 3%;
   background-color: #fff;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   display: flex;
-  background: #f2709c;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #ff9472, #f2709c);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #ff9472, #f2709c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #eacda3;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #d6ae7b, #eacda3);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #d6ae7b, #eacda3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   align-content: center;
   align-items: center;
   border-radius: 0.5rem;
@@ -70,9 +71,9 @@
 .postinfo span{
   display: block;
   font-family: Helvetica;
-  color: rgba(255, 255, 255, .9);
+  color: rgba(0, 0, 0, .7);
   font-size: 1.5vw;
-  font-weight: bolder;
+  font-weight: 800;
   margin: 2%;
 }
 
@@ -97,11 +98,7 @@
     transform: translateX(50%) translateY(-10%);
   }
   .postinfo span{
-    display: block;
-    font-family: Helvetica;
-    color: rgba(255, 255, 255, 0.8);
     font-size: 3.5vw;
-    font-weight: bolder;
     margin: 2%;
   }
   .posthead {
