@@ -31,7 +31,7 @@
   text-align: center;
   font-family: Helvetica;
   color: rgba(255, 255, 255, .9);
-  font-size: 2vw;
+  font-size: 3vw;
   font-weight: bolder;
   margin: 2%;
 }
@@ -110,6 +110,9 @@
   }
   .postbanner {
     margin: 10% 5% 5% 5%;
+  }
+  .postbanner span {
+    font-size: 5vw;
   }
 }
 
