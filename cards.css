@@ -26,6 +26,36 @@
   border-radius: 0.5rem;
 }
 
+.postbanner {
+  float: left;
+  width: 90%;
+  margin: 5% 5% 5% 5%;
+  background-color: #fff;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  display: flex;
+  background: #D1913C;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #FFD194, #D1913C);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #FFD194, #D1913C); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+
+  align-content: center;
+  align-items: center;
+  border-radius: 0.5rem;
+  text-align: center;
+}
+
+.postbanner span {
+  width: 100%;
+  display: block;
+  text-align: center;
+  font-family: Helvetica;
+  color: rgba(255, 255, 255, .9);
+  font-size: 3vw;
+  font-weight: bolder;
+  margin: 2%;
+}
+
 .postinfo {
   width: 100%;
   padding: 5%;
@@ -57,3 +87,12 @@
   font-size: 1vw;
 }
 
+
+@media screen and (max-width: 480px) {
+  .postbanner {
+    margin: 10% 5% 10% 5%;
+  }
+  .postbanner span {
+    font-size: 5vw;
+  }
+}
