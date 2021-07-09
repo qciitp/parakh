@@ -53,7 +53,7 @@
 		}
 		.logo img {
 			float: left;
-			width: 150px;
+			width: 300px;
 			height: auto;
 			transition: transform .2s;
 		}
@@ -277,10 +277,7 @@
 			.logo {
 				top: 25%;
 			}
-			.logo img{
-				width: 100px;
-				height: auto;
-			} 
+			 
 			.one {
 				margin: 0;
 				padding: 0;
@@ -448,7 +445,7 @@
 	<header>
 		<div class="myheader">
 			<div class="logo">
-				<img src="https://lh3.googleusercontent.com/toszyU0WBX7Ae2sx0wzE0CPkOz7fkE6EKabmi4IVgd_4aw9VfYjlzgx2WKqWZ4X1F776eWE2zmqdkZ8W__Mqkbwra2bx0URM0KJYmnDke0J2ZoSDhFWKvLdHXvB2lYfVZ4v3fTuD1g=w2400">
+				<img src="https://lh3.googleusercontent.com/NUAYPz-uSuX0IkmO8jhKfVNHp2ZQu6CWSoMl8DyK_gt3DSbRDBylCA0TTclHLTbB12aug_Krf-jN0pbUoXt30wZwUF9bQbespbQGaOQLbUlFaYryyMitEXzCfR63voXanvZm1pvwQA=w2400">
 			</div>
 			<nav role="navigation">
   <div id="menuToggle">
@@ -461,17 +458,17 @@
     
     <ul id="menu">
       <a href="index.html"><li>HOME</li></a>
-      <a href="ourteam.html"><li>SCHEDULE</li></a>
-      <a href="#"><li>DISCORD</li></a>
-      <a href="#"><li>RESULTS</li></a>
+      <a href="https://discord.gg/kgqZjfD8KG"><li>DISCORD</li></a>
+      <a onclick="myFunction2()" href="#"><li>RESULTS</li></a>
+      <a href="ourteam.html"><li>OUR TEAM</li></a>
     </ul>
   </div>
 </nav>
 			<ul class="one">
 				<li><a href="index.html"> HOME </a></li>
-				<li><a href="ourteam.html"> SCHEDULE </a></li>
-				<li><a href="#"> DISCORD </a></li>
-				<li><a href="#"> RESULTS </a></li>
+				<li><a href="https://discord.gg/kgqZjfD8KG"> DISCORD </a></li>
+				<li><a onclick="myFunction2()" href="#"> RESULTS </a></li>
+				<li><a href="ourteam.html"> OUR TEAM </a></li>
 			</ul>
 		</div>
 		<div class="title">
@@ -485,24 +482,35 @@
 	<div class="postrule" style="margin-top: 2%; margin-bottom: -7%; text-align: center;">
 		<span style="text-align: center;">
 			<strong>
-			Youtube livestream and Gform have been embeded side to side. Please refresh the page incase the livestream stops. <br>
-			<a href="#">Click here to open Gform in new tab</a></strong>
+			Youtube livestream and Gform have been embeded side to side. Please refresh the page incase the livestream stops.(Remember to note down your answers on paper first or you'll lose them.) <br>
+			<a href="#" target="_blank">Click here to open Gform in new tab</a></strong>
 		</span>
 	</div>
 
 	<div class="container-fluid heading" style="padding: 10% 0% 10% 0; overflow-x: hidden;">
 	      <div class="row">
 	          <div class="col-sm-8">
-	          	
 	              <embed type="video/webm" src="https://www.youtube.com/embed/live_stream?channel=UC3d7tkSOntDEZKBGLvMwchA" width="896" height="504" style="width: 100%;">
 	          </div>
 	          <div class="col-sm-4">
-	              <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScWDEsKcBUrbHLwnhPx1-hRf5P7BBUahsW3eYwxpVBBaw3blw/viewform?embedded=true" width="500" height="500" frameborder="0" marginheight="0" marginwidth="0" style="height: 100%; width: 100%;">Loading…</iframe>
+	              <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSffhGimIDXunjz7Rfry_JVL5stbEoFgFHYYOwuc0V88oR1oSg/viewform?embedded=true" width="500" height="500" frameborder="0" marginheight="0" marginwidth="0" style="height: 100%; width: 100%;">Loading…</iframe>
 	          </div>
 	      </div>
 	  </div>
 	  	
 	  </div>
+
+
+	  <script>
+	  	function myFunction() {
+	  	  alert("Warning! The button you are trying to access is currently disabled. It will be enabled on the day of the quiz.");
+	  	}
+	    function myFunction2() {
+	      alert("Warning! No results to show as of yet.");
+	    }
+	  </script>
+
+
 	<footer>
 		<div class="footercontainer">
 			<hr>
