@@ -2,6 +2,7 @@
 <html>
 <head>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="cards.css">
 	<title> Parakh'21 </title>
 	<style type="text/css">
 		* {
@@ -37,6 +38,21 @@
 			transition: 0.6s ease;
 		}
 		ul li a:hover {
+			background-color: white;
+			color: black;
+		}
+		.post .postinfo a {
+			text-decoration: none;
+			background-color: black;
+			color: white;
+			font-size: 20px;
+			padding: 5px 10px;
+			border: 2px solid black;
+			box-shadow: 0px 3px 0px #2b638f;
+			transition: 0.6s ease;
+			border-radius: 50px;
+		}
+		.post .postinfo a:hover {
 			background-color: white;
 			color: black;
 		}
@@ -446,17 +462,17 @@
     
     <ul id="menu">
       <a href="index.html"><li>HOME</li></a>
-      <a href="ourteam.html"><li>SCHEDULE</li></a>
       <a href="https://discord.gg/kgqZjfD8KG"><li>DISCORD</li></a>
       <a href="#"><li>RESULTS</li></a>
+      <a href="ourteam.html"><li>OUR TEAM</li></a>
     </ul>
   </div>
 </nav>
 			<ul class="one">
 				<li><a href="index.html"> HOME </a></li>
-				<li><a href="ourteam.html"> SCHEDULE </a></li>
 				<li><a href="https://discord.gg/kgqZjfD8KG"> DISCORD </a></li>
 				<li><a href="#"> RESULTS </a></li>
+				<li><a href="ourteam.html"> OUR TEAM </a></li>
 			</ul>
 		</div>
 		<div class="title">
@@ -466,22 +482,32 @@
 		</div>
 		<div class="button">
 			<a href="https://dare2compete.com/p/parakh-indian-institute-of-technology-iit-patna-173609?lb=5DTZFqf" class="butt"> Register </a>
-			<a onclick="myFunction()" href="#" class="butt"> Participate </a>
+			<a href="welcome.html" class="butt"> Participate </a>
 		</div>
 	</header>
 	<script>
 	function myFunction() {
-	  alert("Warning! The button you are trying to access is currently disabled. It will be enabled on the day of the quiz.");
+	  alert("Warning! Quiz is not yet uploaded on Slideshare. Please check again in a short while.");
 	}
 	</script>
-	<div class="main">
-		<a href="#"><img class="three" src="https://lh3.googleusercontent.com/R4sVXugU1P8vTcvqnBEnU0ylWiTCU4z5tjQFs9mxKPP_B8ylKi640k2oJZXEksabqMJkPOrFBVPeUmshaFunehy_4reQzuwzJxsIX3fTHPrutATCmG2DzOsqVF5FINY7vq4krriBWw=w2400"></a>
-		<a href="#"><img class="three" src="https://lh3.googleusercontent.com/c9U5csCfro1wm1JKdJqTQbCjU9_PJNx3BOl_itc4CTPDbkTD5g_50rGnhs14P72YCfqngT03iqAHvZyyAUXu_DhUp5p5E9Uhw8WrQ0GVHM1wukCwpUZJRHYS_JgctCiLLKDFH0nlxg=w2400"></a>
+	
+	<div class="postbanner">
+		<span>RESULTS</span>
 	</div>
-	<div class="main">
-		<a href="#"><img class="three" src="https://lh3.googleusercontent.com/RfEkowo9R-2lqoxYK_SEy7xYOcgO2Lq6FDGWXX1KlwDlxFnrMqkd_Pk3CahEy9lZ67dheD9ST0sKHkLKr8TXbnY4LnYF60kprkHbd8jKGfTJ438mAnCXj-YyjqLHKg4is3BdmpCi_w=w2400"></a>
-		<a href="#"><img class="three" src="https://lh3.googleusercontent.com/9Aio6-mzMO2d4UEafC9SAk1xm2Ydd5ZjOoCITsR1aBeEvIE9UBIc8BjPw0t-E7N5TritUWA4RmgjR_uCwtaqZhcIqxG4OAMfFakl_lTV4ZAgoI_TcpEp4nqX4C6DGfFIwQ1zzb4AtQ=w2400"></a>
-		<a href="#"><img class="three" src="https://lh3.googleusercontent.com/uK8YP7ai-k_Rt63_AI5yhnnKTjdHmFQ-m-RUr1AezVWdFHvSDJsPrvU3Tc62meHe8MfUBIDaQwunkr0hTzIBXr2IZPUs7bBaxSIoUaZMBDfR1KWRrYbMRMaoz6FLJShsBoczUxKHxg=w2400"></a>
+
+	<div class="post">
+		<div class="postimg">
+			<img src="https://lh3.googleusercontent.com/yg3qIAexhidwwCzVGpwdQ1Dqm4TNIgpAwvpDglmcIEccVTEGFyaAu_UF4lmzbZ13MF7MEKZOoDOns5BRW9hDF-SWajDnUKtIrdB5nN6-E6-C3BLpHGUleyF-IWspM36tn4h5yZkEoQ=w2400">
+		</div>
+		<div class="postinfo">
+			<div class="posthead">
+				<span>Moneyball</span>
+				<span style="font-size: 2vw;">Quiz on Business in Sports</span>
+			</div>
+			<a style="font-size: 1.5vw;" onclick="myFunction()" href="#">SlideShare</a>
+			
+			<a style="font-size: 1.5vw;" href="https://www.youtube.com/watch?v=IQ9s5j0UJO4" target="_blank">Youtube</a>
+		</div>
 	</div>
 
 	<footer>
