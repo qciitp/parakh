@@ -46,6 +46,24 @@
 			background-color: white;
 			color: black;
 		}
+		.responsive-container {
+			position: relative;
+			padding-bottom: 53.25%;
+			padding-top: 30px;
+			height: 0;
+			overflow: hidden;
+		}
+		.responsive-container,
+			.responsive-container iframe {
+			max-width: 1280px;
+			max-height: 720px;
+		}
+		.responsive-container iframe {
+			position: absolute;
+			top: 0; left: 0;
+			width: 100%;
+			height: 100%;
+		}
 		.logo {
 			position: absolute;
 			top: 5%;
@@ -494,9 +512,12 @@
 			Youtube livestream and Gform have been embeded side to side. <br>
 			Youtube embed is not supported by Safari browser. Please use Chrome or use the below links.
 			Please refresh the page incase the livestream stops.(Remember to note down your answers on paper first or you'll lose them.) <br>
-			<a href="https://docs.google.com/forms/d/e/1FAIpQLSd5skYO4vBZfK5kQHnp57p7Aa_fyaWvPdBgky63tGMuuun27A/viewform?" target="_blank">Click here to open Gform in new tab</a>
+			<a href="https://forms.gle/jKk7dL1fcDQtS25DA" target="_blank">Click here to open Gform in new tab</a>
 			<br>
-			<a href="https://www.youtube.com/watch?v=Sajr3S9ZMUI" target="_blank">Click here to open Livestream in new tab</a>
+			<a href="https://www.youtube.com/watch?v=6N1WT-Kg6wk" target="_blank">Click here to open Livestream in new tab</a>
+			<br>
+			<a href="https://www.youtube.com/watch?v=fEQbByKzAI0" target="_blank">Click here to open Answer discussion livestream</a>
+			<br>Note that answer discussion livestream will start after the quiz ends.
 		</strong>
 
 		</span>
@@ -506,10 +527,10 @@
 	<div class="container-fluid heading" style="padding: 10% 0% 5% 0; overflow-x: hidden;">
 	      <div class="row">
 	          <div class="col-sm-8">
-	              <embed type="video/webm" src="https://www.youtube.com/embed/live_stream?channel=UC3d7tkSOntDEZKBGLvMwchA" width="896" height="504" style="width: 100%;">
+	              	<iframe src="http://www.youtube.com/embed/6N1WT-Kg6wk" width="896" height="504" frameborder="0" allowfullscreen></iframe>
 	          </div>
 	          <div class="col-sm-4">
-	              <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSd5skYO4vBZfK5kQHnp57p7Aa_fyaWvPdBgky63tGMuuun27A/viewform?embedded=true" width="500" height="500" frameborder="0" marginheight="0" marginwidth="0" style="height: 100%; width: 100%;">Loading…</iframe>
+	              <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSe30eWRrwbWibckrJUoti6eaCJkNVjEEET-x9-iKbKdL-NjQg/viewform?embedded=true" width="500" height="500" frameborder="0" marginheight="0" marginwidth="0" style="height: 100%; width: 100%;">Loading…</iframe>
 	          </div>
 	      </div>
 	 </div>
@@ -543,8 +564,6 @@
 	       let wrapper = document.getElementById('chat-embed-wrapper');
 	       wrapper.appendChild(frame);
 	     </script>
-
-	 
 
 
 	  <script>
