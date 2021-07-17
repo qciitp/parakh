@@ -506,11 +506,64 @@
 		
 	</header>
 
+	<div class="postrule" style="margin-top: 2%; margin-bottom: -7%; text-align: center;">
+		<span style="text-align: center;">
+			<strong>
+			Youtube livestream and Gform have been embeded side to side. <br>
+			Youtube embed is not supported by Safari browser. Please use Chrome or use the below links.
+			Please refresh the page incase the livestream stops.(Remember to note down your answers on paper first or you'll lose them.) <br>
+			<a href="https://forms.gle/jKk7dL1fcDQtS25DA" target="_blank">Click here to open Gform in new tab</a>
+			<br>
+			<a href="https://www.youtube.com/watch?v=6N1WT-Kg6wk" target="_blank">Click here to open Livestream in new tab</a>
+			<br>
+			<a href="https://www.youtube.com/watch?v=fEQbByKzAI0" target="_blank">Click here to open Answer discussion livestream</a>
+			<br>Note that answer discussion livestream will start after the quiz ends.
+		</strong>
+
+		</span>
+	</div>
 	
 
-	<div class="responsive-container">
-		<iframe width="1280" height="720" src="https://www.youtube.com/embed/live_stream?channel=UC3d7tkSOntDEZKBGLvMwchA" frameborder="0" allowfullscreen></iframe>
-	</div>
+	<div class="container-fluid heading" style="padding: 10% 0% 5% 0; overflow-x: hidden;">
+	      <div class="row">
+	          <div class="col-sm-8">
+	              	<iframe src="http://www.youtube.com/embed/6N1WT-Kg6wk" width="896" height="504" frameborder="0" allowfullscreen></iframe>
+	          </div>
+	          <div class="col-sm-4">
+	              <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSe30eWRrwbWibckrJUoti6eaCJkNVjEEET-x9-iKbKdL-NjQg/viewform?embedded=true" width="500" height="500" frameborder="0" marginheight="0" marginwidth="0" style="height: 100%; width: 100%;">Loading…</iframe>
+	          </div>
+	      </div>
+	 </div>
+
+	 <div class="postrule" style="margin-top: 7%; margin-bottom: 5%; text-align: center;">
+	 	<span style="text-align: center;">
+	 		<strong>
+	 		DO NOT WRITE ANSWERS IN THE LIVE CHAT BELOW.
+	 	</strong>
+
+	 	</span>
+	 </div>
+
+	 <div class="container-fluid heading2" style="padding: 0% 0% 10% 0; overflow-x: hidden;">
+	       <div class="row">
+	           <div class="col-sm-8">
+	               <div style="width: 100%;" id="chat-embed-wrapper" class="chat"></div>
+	           </div>
+	       </div>
+	  </div>
+
+
+	     <script>
+	       let frame = document.createElement('iframe');
+	       frame.referrerPolicy = 'origin';
+	       frame.src = 'https://www.youtube.com/live_chat?v=Sajr3S9ZMUI&embed_domain=' + window.location.hostname;
+	       frame.frameBorder = '0';
+	       frame.id = 'chat-embed';
+	       frame.width=375;
+	       frame.height=500;
+	       let wrapper = document.getElementById('chat-embed-wrapper');
+	       wrapper.appendChild(frame);
+	     </script>
 
 
 	  <script>
